@@ -22,3 +22,12 @@ main() {
 
   print(multilinea);
 }
+
+// Ejemplo 1: URL de una API para solicitudes de red
+String apiEndpoint = 'https://api.ejemplo.com/v1/usuarios';
+
+// Ejemplo 2: Consulta SQL para usar en una base de datos
+String sqlQuery = 'SELECT * FROM productos WHERE precio < 100.00';
+
+// Ejemplo 3: JSON String para serialización/deserialización
+String jsonString = '{"nombre": "Carlos", "edad": 30, "profesion": "Ingeniero de Software"}';

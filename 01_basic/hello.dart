@@ -6,4 +6,10 @@ main() {
   print("Hello world!");
 
   print("Amy!");
+
+  print(i);
+
+
+
+
 }

@@ -59,7 +59,7 @@ main() {
   print(set);
   print(set.length);
 
-  // ===== maps
+  // ===== Maps   Diccionarios / objetos Literales
   Map<int, String> mapa = {1: "uno", 2: "dos", 3: "tres"};
   print(mapa);
   print(mapa.length);
@@ -71,8 +71,34 @@ main() {
     'papa': "Miguel",
     'edad2': 32,
     'hija': "Amy",
-    'edad3': 5
+    'edad3': 5,
   };
 
   print(familia);
+  print(familia['mama']);
+
+  //Ejemplo Map anidado
+  Map<String, dynamic> family = {
+  'mom': {
+    'name': "Stefanny",
+    'age': 31,
+  },
+  'dad': {
+    'name': "Miguel",
+    'age': 32,
+  },
+  'daughter': {
+    'name': "Amy",
+    'age': 5,
+  },
+};
+
+print(family);
+
+// Para imprimir el nombre de la mamá, ahora necesitas acceder al mapa anidado y luego a la clave 'nombre'.
+print(family['mom']?['name']); // El operador ? (elvis operator): Este es un operador de acceso condicional. Se utiliza para acceder a un miembro de un objeto solo si ese objeto no es nulo. Si el objeto a la izquierda del operador ? es nulo, entonces toda la expresión devuelve nulo en lugar de lanzar una excepción de referencia nula.
+
+
+
+
 }

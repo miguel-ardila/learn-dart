@@ -1,6 +1,7 @@
 void main() {
   var a = 10;
-  final b = 10; //no pueden cambiar su valor pero deja agregar otro valor al final
+  final b =
+      10; //no pueden cambiar su valor pero deja agregar otro valor al final
   const c = 10; //no pueden cambiar su valor
 
   a = 30;
@@ -16,6 +17,11 @@ void main() {
 
   print(personasFinal);
   print(personasConst);
+
+  final amy = "Amy";
+  print(amy);
+
+
 
 
 }

@@ -2,11 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "name": "learn-dart",
             "request": "launch",
             "type": "dart",
-            "program": "01_basic/variables.dart"
+            "program": "01_basic/operadores_asignacion.dart"
         }
     ]
 }

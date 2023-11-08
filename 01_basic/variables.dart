@@ -14,6 +14,8 @@ void main() {
 
   //final List<String> personasFinal = ['Juan', 'Pedro', 'Lucas'];
   //list<string> personasConst = const ['Juan', 'Pedro', 'Lucas'];
+  //final List<String> personasFinal = ['Juan', 'Pedro', 'Lucas'];
+  //list<string> personasConst = const ['Juan', 'Pedro', 'Lucas'];
 
   personasFinal.add('Maria');
   //personasConst.add('Maria');

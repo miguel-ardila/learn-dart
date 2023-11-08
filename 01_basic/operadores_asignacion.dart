@@ -26,6 +26,15 @@ main() {
   == Revisa si dos objetos son iguales
   != (! =) Revisa si dos objetos son diferentes
   */
+  // operadores relaciones retorna un valor booleano
+  /*
+  > Mayor que
+  < Menor que
+  >= Mayor o igual que
+  <= Menor o igual que
+  == Revisa si dos objetos son iguales
+  != (! =) Revisa si dos objetos son diferentes
+  */
 
   String persona1 = 'Miguel';
   String persona2 = 'Amy';

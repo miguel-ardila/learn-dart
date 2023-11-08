@@ -10,6 +10,6 @@ main() {
 
 
   /// Recibe un [nombre] y se concatena cone le [mensaje]
-  saludar(int nombre, int mensaje) {}
-  print(saludar);
+  // saludar(int nombre, int mensaje) {}
+  //print(saludar);
 }

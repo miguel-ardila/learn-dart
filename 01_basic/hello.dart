@@ -10,6 +10,8 @@ main() {
   print(i);
   print("Hello world!");
 
+  print(i);
+  print("Hello world!");
 
 
 }

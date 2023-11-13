@@ -46,7 +46,6 @@ main() {
   int i = 10;
   String j = "10";
 
-  print(i is int);
   print(j is! int);
 
   int edad = 25;

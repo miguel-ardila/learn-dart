@@ -12,6 +12,8 @@ main() {
 
   print(i);
   print("Hello world!");
+ int i = 0;
 
+  print(i);
 
 }

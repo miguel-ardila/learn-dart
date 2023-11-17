@@ -34,10 +34,7 @@ void main() {
   print(x);
   
 
-  String nombre = "Juan";
-  int edad = 30;
-  double salario = 3000.50;
-  bool esEstudiante = true;
+ 
 
 
 

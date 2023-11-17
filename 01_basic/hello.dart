@@ -7,10 +7,5 @@ main() {
 
   print("Amy!");
 
-  print(i);
-  print("Hello world!");
-
-  print(i);
-  print("Hello world!");
 
 }
